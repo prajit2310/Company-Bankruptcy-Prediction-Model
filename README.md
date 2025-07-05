@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project aims to forecast the probability of a company going bankrupt using its financial indicators. The framework combines a Deep Neural Network (DNN) and a Gaussian Naive Bayes (GNB) classifier, leveraging both deep feature extraction and probabilistic reasoning. By integrating both models via an ensemble strategy, it achieves robust performance on a highly imbalanced dataset.
+This project aims to forecast the probability of a company going bankrupt using its financial indicators. The framework combines a **Deep Neural Network (DNN)** and a **Gaussian Naive Bayes (GNB)** classifier, leveraging both deep feature extraction and probabilistic reasoning. By integrating both models via an ensemble strategy, it achieves robust performance on a highly imbalanced dataset.
 
 ---
 
@@ -14,8 +14,8 @@ This project aims to forecast the probability of a company going bankrupt using 
 
 ## Data Preprocessing
 
-- **Feature Selection**: Selected top features using ANOVA F-scores to improve relevance and reduce noise.
-- **Handling Class Imbalance**: Applied SMOTE (Synthetic Minority Over-sampling Technique) to oversample the minority (bankrupt) class.
+- **Feature Selection**: Selected top features using **ANOVA F-scores** to improve relevance and reduce noise.
+- **Handling Class Imbalance**: Applied **SMOTE (Synthetic Minority Over-sampling Technique)** to oversample the minority (bankrupt) class.
 - **Standardization**: Scaled features to zero mean and unit variance using `StandardScaler`.
 
 ---
@@ -42,7 +42,7 @@ This project aims to forecast the probability of a company going bankrupt using 
 
 ##  Ensemble Approach
 
-- Combined predictions from DNN and GNB using soft voting.
+- Combined predictions from **DNN and GNB** using **soft voting**.
 - Fine-tuned the final decision threshold to maximize F1-score.
 
 ---
