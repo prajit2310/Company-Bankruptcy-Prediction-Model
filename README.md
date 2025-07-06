@@ -30,7 +30,7 @@ This project aims to forecast the probability of a company going bankrupt using 
   - Layer 2: 128 neurons, ReLU activation, Batch Normalization, Dropout (50%).
   - Layer 3: 64 neurons, ReLU activation, Batch Normalization, Dropout (40%).
 - **Output Layer**: Single neuron with sigmoid activation for binary prediction.
-- **Optimizer**: Adam (learning rate = 0.0004).
+- **Optimizer**: Adam (learning rate = 0.0005).
 - **Loss Function**: Binary cross-entropy.
 
 ### Gaussian Naive Bayes (GNB)
@@ -70,11 +70,11 @@ This project aims to forecast the probability of a company going bankrupt using 
 
 The model was tested on a 20% hold-out split, using a dataset with a heavy imbalance ratio (approx. 1:33). Performance metrics:
 
-- **Accuracy**: 96%
-- **Precision**: 42%
-- **Recall**: 67%
-- **F1-Score**: 51.85%
-- **Best Threshold**: 0.50
+- **Accuracy**: 97%
+- **Precision**: 46.34%
+- **Recall**: 61.29%
+- **F1-Score**: 52.78%
+- **Best Threshold**: 0.41
 
 ---
 
